@@ -1,62 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>??</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="mod8.css">
-	</head>
-	
-	<header>
-	
-	<h2> Business Name </h2>
-	
-	<h3> Subheading Goes Here</h3>
-	
-	
-	
-	
-	<nav>
-			<ul class="link">
-			
-			<li><a href="home.html">Home</a></li>
-			<li><a href="page2.html">Page 2</a></li>
-			<li><a href="page3.html">Page 3</a></li>
-			<li><a href="page4.html">Page 4</a></li>
-			
-		</ul>
-	
-	</nav>
-	
-	<main>
-	
-		<article>
-			<h1>Article Title Goes Here</h1>
-			<img src="M8_Lab_Pic.png" alt="Module 8 Lab Picture">
-			<p>Lorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum Ipsum</p>
-		</article>
-		
-		<aside>
-				<h2>A Little Aside Title</h2>
-				<ol>
-					<li>Item 1</li>
-					<li>Item 2</li>
-					<li>Item 3</li>
-					<li>Item 4</li>
-				</ol>
-		</aside>
-	
-	
-	
-	
-	
-	</main>
-	
-	<footer>
-	<small><p>Lorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum </p></small>
-	
-	</footer>
-	
-	
-	
-	
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M8flex Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        nav ul li {
+            flex: 1;
+            text-align: center;
+            padding: 1em;
+        }
+        main {
+            display: flex;
+            padding: 1em;
+        }
+        article {
+            flex: 60%;
+            margin: 1.5em 2.52525% 0 2.0202%;
+        }
+        article img {
+            max-width: 100%;
+            margin-bottom: 1em;
+        }
+        aside {
+            flex: 40%;
+            padding: 2.0202%;
+            max-width: 200px;
+            min-height: 180px;
+            background-color: #ffebc6;
+            margin: 1.5em 2.0202% 0 0;
+        }
+        footer {
+            background-color: pink;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Header Title</h2>
+        <h3>Subheading Goes Here</h3>
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Page 2</li>
+            <li>Page 3</li>
+            <li>Page 4</li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h1>Article Title Goes Here</h1>
+            <img src="M8_Pic_Lab.png" alt="Description of image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula, justo at elementum faucibus, mauris libero sagittis elit, vitae scelerisque arcu risus nec nisl.</p>
+        </article>
+        <aside>
+            <h2>A Little Aside Title</h2>
+            <ol>
+                <li>Filler text 1</li>
+                <li>Filler text 2</li>
+                <li>Filler text 3</li>
+                <li>Filler text 4</li>
+            </ol>
+        </aside>
+    </main>
+    <footer>
+        <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis.</small></p>
+    </footer>
+</body>
 </html>
